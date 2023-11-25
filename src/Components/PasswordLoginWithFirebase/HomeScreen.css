@@ -1,0 +1,35 @@
+/* HomeScreen.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin-left: 200px;
+}
+
+.signout-button {
+    background-color: #5f7082;
+    color: #fff;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signout-button:hover {
+    background-color: #0056b3;
+}

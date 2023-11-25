@@ -1,0 +1,21 @@
+{
+    "appName": "comtab",
+    "roleName": "pinpointLambdaRole6dd4ec73",
+    "cloudformationPolicyName": "cloudformationPolicy6dd4ec73",
+    "cloudWatchPolicyName": "cloudWatchPolicy6dd4ec73",
+    "pinpointPolicyName": "pinpointPolicy6dd4ec73",
+    "authPolicyName": "pinpoint_amplify_6dd4ec73",
+    "unauthPolicyName": "pinpoint_amplify_6dd4ec73",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

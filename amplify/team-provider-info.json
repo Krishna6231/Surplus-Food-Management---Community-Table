@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-comtab-dev-133729-authRole",
+      "UnauthRoleArn": "arn:aws:iam::376915098993:role/amplify-comtab-dev-133729-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::376915098993:role/amplify-comtab-dev-133729-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-comtab-dev-133729-deployment",
+      "UnauthRoleName": "amplify-comtab-dev-133729-unauthRole",
+      "StackName": "amplify-comtab-dev-133729",
+      "StackId": "arn:aws:cloudformation:ap-south-1:376915098993:stack/amplify-comtab-dev-133729/b7df5440-6f1f-11ee-ae74-06807279f352",
+      "AmplifyAppId": "d2gqgjacdh2ue7"
+    },
+    "categories": {
+      "auth": {
+        "comtaba3dca9be": {}
+      },
+      "analytics": {
+        "comtab": {},
+        "Pinpoint": {
+          "Name": "comtab-dev",
+          "Id": "da103c9eea4f4081b3c5b7ca958cecf6",
+          "Region": "ap-south-1"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "comtab-dev",
+          "Id": "da103c9eea4f4081b3c5b7ca958cecf6",
+          "Region": "ap-south-1"
+        }
+      }
+    }
+  }
+}

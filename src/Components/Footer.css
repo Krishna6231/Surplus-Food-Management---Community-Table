@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background: grey;
+}
+.icons {
+    padding: 6px;
+}
+span{
+    padding: 10px;    
+}
